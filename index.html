@@ -13,7 +13,7 @@
   <table id="tbl1">
     <tbody>
       <tr>
-        <th>a</th><td>b</td><td>c</td>
+        <th>a</th><td>bbbbb</td><td>ccccc</td>
       </tr>
     </tbody>
   </table>
@@ -23,7 +23,9 @@
       $('#btn1').click(function(){
         function buildHtml(){
           var html = `<tr>
-                        <th>a</th><td>b</td><td>c</td>
+                        <th>a</th>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
                       </tr>`
           return html;
         }
